@@ -4,6 +4,7 @@ Created on Wed Mar 20 18:27:56 2019
 https://projecteuler.net/problem=109
 @author: matth
 
+*** Explains the rules of darts ***
 How many distinct ways can a player checkout with a score less than 100?
 """
 def main():
