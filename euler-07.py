@@ -16,7 +16,7 @@ def primes(n):
     prime_list = [2]
     p = 3
     while (len(prime_list) < n):
-        if all ([p % prime != 0 for prime in prime_list]):
+        if all (p % prime != 0 for prime in prime_list):
             prime_list.append(p)
         p += 1
     return prime_list
