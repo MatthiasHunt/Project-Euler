@@ -14,14 +14,12 @@ def main():
 
 def factors(n):
     """Returns a list of an integer's prime factors in increasing order with multiple factors listed multiple times"""
-    factor_list=[]
     p = 2
     while n > 1:
         while n % p == 0:
-            factor_list.append(p)
+            yield p
             n /= p
         p += 1
-    return factor_list
 
 #############################
 
